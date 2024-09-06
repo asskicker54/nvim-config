@@ -18,17 +18,18 @@ Find nvim folder:
 - Linux: ~/.config/nvim/
 - Windows: C:\Users\user_name\AppData\Local\nvim
 
-Place the files in the directory this way:
+Place the files inside nvim directory this way:
 
 ```bash
+nvim/
 ├── README.md
 ├── init.lua
-└── lua
-    └── config
-        ├── core
+└── lua/
+    └── config/
+        ├── core/
         │   ├──...
         ├── lazy.lua
-        └── plugins
+        └── plugins/
             ├──...
 ```
 
